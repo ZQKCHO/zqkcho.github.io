@@ -7,16 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Home | pandaOS</title>
+<title>Contact | pandaOS</title>
 <meta name="generator" content="Jekyll v3.8.7" />
-<meta property="og:title" content="Home" />
+<meta property="og:title" content="Contact" />
 <meta name="author" content="rekols" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:site_name" content="pandaOS" />
 <script type="application/ld+json">
-{"@type":"WebSite","url":"/","headline":"Home","name":"pandaOS","author":{"@type":"Person","name":"rekols"},"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"/contact/","headline":"Contact","author":{"@type":"Person","name":"rekols"},"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -87,63 +87,66 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 </header>
 
 
-    <div class="hero lazyload" data-bg="/assets/img/posts/sleek_lg.jpg">
+    <div class="hero--small">
       <div class="hero__wrap">
-        <h1 class="hero__title">pandaOS</h1>
-        <p class="hero__meta">PandaOS 是一款开源 Linux 发行版，使用 C++/Qt 技术开发新的 panda 桌面环境。
-</p>
+        <h1 class="hero__title">Contact</h1>
       </div>
     </div>
-
     <main class="site__content">
-      <section class="blog">
-        <div class="container">
-          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
 
-            
-              <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
-  
-    
-    <span class="post-card__label">
-      
-    </span>
-  
-  <a href="/welcome-to-jekyll/">
-    
-      <figure class="post-card__thumb">
-        <img
-          src="/assets/img/posts/shane-rounce-205187_placehold.jpg"
-          data-srcset="/assets/img/posts/shane-rounce-205187_thumb.jpg, /assets/img/posts/shane-rounce-205187_thumb@2x.jpg 2x"
-          class="lazyload blur"
-          alt="Welcome To Jekyll"
-        />
-        <noscript><img src="/assets/img/posts/shane-rounce-205187_thumb.jpg" alt="Welcome To Jekyll"></noscript>
-      </figure>
-    
-  </a>
-  <a class="post-card__inner" href="/welcome-to-jekyll/">
-    <div class="post-card__header">
-      <h2>Welcome To Jekyll</h2>
-      
-      <span class="post-card__meta">
-        <time>May 14, 2020</time>
-      </span>
+      <div class="container">
+        <div class="page-content">
+
+          <p>Jekyll is a great tool to create static sites, but there’s no backend to send your data to.</p>
+
+<p>However, you can use free SaaS as a backend for forms, such as <a href="https://formspree.io/">Formspree</a> to handle form submissions. Sleek has a configured form using formspree ready for you. All you have to do is change the email in <code class="highlighter-rouge">.config.yml</code>.</p>
+
+<p>Check the form below to see it in action!</p>
+
+<h3 id="example-formspree-contact-form-with-validation-and-recaptcha">Example Formspree contact form with validation and reCaptcha</h3>
+
+<p>Fill in the form or <a href="mailto:rekols@foxmail.com">email me</a> to discuss your next project.</p>
+
+<form id="contactForm" action="https://formspree.io/rekols@foxmail.com" method="post" novalidate="">
+  <div class="form__input half">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" autocomplete="name" required="" />
+  </div>
+
+  <div class="form__input input half">
+    <label for="email">Email</label>
+    <input type="email" name="_replyto" id="email" autocomplete="email" required="" />
+  </div>
+
+  <div class="form__input">
+    <label for="message">Message</label>
+    <textarea type="text" name="message" id="message" rows="7" autocomplete="message" required=""></textarea>
+  </div>
+
+  <input type="hidden" name="_subject" value="Website Form submission" />
+  <input type="hidden" name="_format" value="plain" />
+  <input class="hidden" type="text" name="_gotcha" />
+  <button class="btn js-submit" type="submit" value="Send">Send</button>
+</form>
+
+<div class="modal" role="dialog">
+  <div class="modal__inner" role="document" tabindex="-1">
+    <div class="modal__content">
+      <button class="modal__close-button js-modal-close">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24"><defs><path id="a" d="M12 11.033L7.167 6.2a.684.684 0 1 0-.967.967L11.033 12 6.2 16.833a.684.684 0 0 0 .967.967L12 12.967l4.833 4.833a.684.684 0 1 0 .967-.967L12.967 12 17.8 7.167a.684.684 0 0 0-.967-.967L12 11.033z" /></defs><use fill="fillColor" xlink:href="#a" fill-rule="evenodd" /></svg>
+      </button>
+      <div class="modal__body">
+      </div>
     </div>
-    
-      <p>You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your...</p>
-    
-  </a>
+  </div>
+  <div class="modal__overlay"></div>
 </div>
 
-            
 
-            <!-- <nav class="pagination">
-  <a href="#" class="pagination__item">1</a>
-</nav>
- -->
-          </div>
+
         </div>
-      </section>
+      </div>
+
     </main>
 
     <footer class="footer">
