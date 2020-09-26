@@ -1,0 +1,120 @@
+# Site settings
+title: 星外之神 Blog
+SEOTitle: 星外之神的博客 | wszqkzqk Blog
+header-img: img/bg2.jpg
+email: wszqkzqk@qq.com
+description: "天下难事，必作于易；天下大事，必作于细"
+keyword: "wszqkzqk, wszqkzqk Blog, 星外之神的博客, wszqkzqk"
+url: "http://wszqkzqk.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/wszqkzqk/wszqkzqk.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "见小曰明，守柔曰强"
+sidebar-avatar: /img/wszqkzqk.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+# weibo_username:     wszqkzqk
+#zhihu_username:     wszqkzqk
+github_username:    wszqkzqk
+#facebook_username:  
+#jianshu_username:   
+#twitter_username:   wszqkzqk
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: wszqkzqk
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: e2d184a487a7a3d32aa4                             #生成的clientID
+  clientSecret: de135a4200fd7e49b4f328a4f13da78af736ed47    #生成的clientSecret
+  repo: wszqkzqk.github.io    #仓库名称
+  owner: wszqkzqk    #github用户名
+  admin: wszqkzqk
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: bee5952215150b26a9fe25d43fdc1116 
+
+# Google Analytics
+#ga_track_id:             # Format: UA-xxxxxx-xx
+#ga_domain:              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 2              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "deepin",
+        href: "https://www.deepin.org"
+    },{
+        title: "GitHub",
+        href: "https://github.com"
+    },{
+        title: "小米",
+        href: "https://www.mi.com"
+    },{
+        title: "Wikipedia",
+        href: "https://www.wikipedia.org"
+    },{
+        title: "Linux.org",
+        href: "https://linux.org"
+    },{
+        title: "网易云音乐",
+        href: "https://music.163.com/"
+    }
+]
